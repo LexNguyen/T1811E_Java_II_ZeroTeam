@@ -5,6 +5,7 @@
  */
 package assignment200;
 
+import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
@@ -13,7 +14,7 @@ import java.util.Scanner;
  *
  * @author Admin
  */
-public class SanPham {
+public class SanPham implements Serializable{
 
     String maSanPham;
     String maDanhMuc;
